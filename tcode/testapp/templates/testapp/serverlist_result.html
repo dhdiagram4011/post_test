@@ -1,0 +1,15 @@
+>> 입력하신 정보는 아래와 같습니다
+<br/>
+<br/>
+<br/>
+{% for serverlist in serverlists %}
+    1. 보유자 이름 : {{ serverlist.name }} <br/>
+    2. 보유서버댓수 : {{ serverlist.server_count }}<br/>
+    3. 모델명 : {{ serverlist.model_name }}<br/>
+    4. 분류코드 : {{ serverlist.code }}<br>
+    5. 사용용도 : {{ serverlist.use_case }}<br/>
+    6. 입력일시 : {{ serverlist.created_date }}<br/> 
+    7. 등록일시 : {{ serverlist.published_date }}<br/>
+{% endfor %}
+
+<a href='serverlist.html'><button type="submit" class="save btn-default">뒤로가기</button></a>

@@ -1,0 +1,8 @@
+{% block content %}
+<form method="POST" class="selectest-form">{% csrf_token %}
+<input type="radio" value="{{ form.as_p }}">
+<button type="submit" class="save btn-default">전송하기</button>
+</form>
+{% endblock %}
+
+

@@ -1,0 +1,9 @@
+{% block content %}
+*** 회원가입(생성 : 2019.06.27)
+<form method="POST" class="join-form">{% csrf_token %}
+{{ form.as_p }}
+<button type="submit" class="save btn-default">가입하기</button>
+</form>
+{% endblock %}
+
+

@@ -1,0 +1,12 @@
+>> 가입 정보는 아래와 같습니다.(2019.06.27)<br/>
+<br/>
+<br/>
+<br/>
+
+**** 가입정보결과 ****<br/>
+{% for post in posts %}
+    1. 가입일: {{ post.created_date}}<br/>
+    2. 이름: {{ post.name }}<br/>
+    3. 이메일: {{ post.email }}<br/>
+    4. 사용자패스워드: {{ post.password }}<br/>
+{% endfor %}

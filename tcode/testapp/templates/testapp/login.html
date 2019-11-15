@@ -1,0 +1,8 @@
+{% block content %}
+<br/>
+<form method="POST" class=login-form>{% csrf_token %}
+>> 가입시 입력한 이메일과 패스워드를 정확히 입력하여 주세요
+{{ form.as_p }}
+<button type="submit" class="save btn-default">로그인</button>
+</form>
+{% endblock %}

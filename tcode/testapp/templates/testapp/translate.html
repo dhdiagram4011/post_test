@@ -1,0 +1,7 @@
+{% block content %}
+** 번역기(생성: 2019.07.01)
+<form method="POST" class="translate-form">{% csrf_token %}
+{{ form.as_p }}
+<button type="submit" class="save btn-default">번역하기</button>
+</form>
+{% endblock %}
