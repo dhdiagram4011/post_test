@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME' : 'mysqltest',
+        'NAME' : 'ATS',
         'USER' : 'root',
         'PASSWORD' : 'k20504003',
-        'HOST' :'35.239.125.166',
+        'HOST' :'ats.c0hryaktyqa9.ap-northeast-2.rds.amazonaws.com',
         'PORT' : '3306',        
     }
 }
