@@ -3,11 +3,9 @@ from django.utils import timezone
 from django.shortcuts import redirect
 from django import forms
 from .models import Post
-from .models import Transpost
 from .models import Serverlist
 from .models import Login
 from .forms import RegForm
-from .forms import TransForm
 from .forms import ServerlistForm
 from .forms import LoginForm
 from django.contrib.auth.models import User
